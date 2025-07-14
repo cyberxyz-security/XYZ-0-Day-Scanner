@@ -1,0 +1,6 @@
+click
+requests
+python-dotenv
+tabulate
+rich
+pip-audit

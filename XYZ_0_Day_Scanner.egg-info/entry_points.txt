@@ -1,0 +1,2 @@
+[console_scripts]
+xyz = xyz_cli.main:main
