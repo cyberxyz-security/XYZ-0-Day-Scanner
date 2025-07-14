@@ -1,13 +1,13 @@
-Metadata-Version: 2.1
+Metadata-Version: 2.4
 Name: XYZ-0-Day-Scanner
 Version: 1.0.1
-Summary: Professional vulnerability scanner CLI tool
-Home-page: https://github.com/cyberxyz-security/XYZ-APT-Scanner
+Summary: From CyberXYZ Security Inc., our research team looks for the next 0-Day vulnerabilities in collaboration with Cork Institute for Technology (CIT).
+Home-page: https://github.com/cyberxyz-security/XYZ-0-Day-Scanner
 Author: CyberXYZ Security Team
 Author-email: amro@cyberxyz.io
-Project-URL: Bug Reports, https://github.com/cyberxyz-security/XYZ-APT-Scanner/issues
-Project-URL: Documentation, https://github.com/cyberxyz-security/XYZ-APT-Scanner
-Project-URL: Source, https://github.com/cyberxyz-security/XYZ-APT-Scanner
+Project-URL: Bug Reports, https://github.com/cyberxyz-security/XYZ-0-Day-Scanner/issues
+Project-URL: Documentation, https://github.com/cyberxyz-security/XYZ-0-Day-Scanner
+Project-URL: Source, https://github.com/cyberxyz-security/XYZ-0-Day-Scanner
 Keywords: vulnerability scanner,security,CVE,GHSA,OSV
 Classifier: Development Status :: 4 - Beta
 Classifier: Intended Audience :: Developers
@@ -30,16 +30,28 @@ Requires-Dist: python-dotenv
 Requires-Dist: tabulate
 Requires-Dist: rich
 Requires-Dist: pip-audit
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
 
-# 🛡️ XYZ APT Scanner 🛡️
+# 🛡️ XYZ 0-Day Scanner 🛡️
 
-**A professional vulnerability scanner CLI tool by CyberXYZ Security**
+**From CyberXYZ Security Inc., our research team looks for the next 0-Day vulnerabilities in collaboration with Cork Institute for Technology (CIT).**
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 ## 🚀 Overview
 
-The XYZ APT Scanner is a powerful command-line interface that allows developers and security professionals to scan their projects for known vulnerabilities. It leverages the comprehensive XYZ Vulnerability Database to provide real-time security insights.
+The XYZ 0-Day Scanner is a powerful command-line interface that allows developers and security professionals to scan their projects for known vulnerabilities. It leverages the comprehensive XYZ Vulnerability Database to provide real-time security insights.
 
 ## ✨ Features
 
@@ -50,16 +62,16 @@ The XYZ APT Scanner is a powerful command-line interface that allows developers 
 
 ## 🛠️ Installation
 
-You can install the XYZ APT Scanner using `pip` or `uv`:
+You can install the XYZ 0-Day Scanner using `pip` or `uv`:
 
 ```bash
-pip install XYZ-APT-Scanner
+pip install XYZ-0-Day-Scanner
 ```
 
 or
 
 ```bash
-uv pip install XYZ-APT-Scanner
+uv pip install XYZ-0-Day-Scanner
 ```
 
 **Note:** To use the Go auditing features, you will also need to install `depsdev`:
@@ -196,4 +208,4 @@ This tool was developed by the CyberXYZ Security team.
 
 ## 📄 License
 
-The XYZ APT Scanner is licensed under a commercial license. See the [LICENSE](LICENSE) file for more details.
+The XYZ 0-Day Scanner is licensed under a commercial license. See the [LICENSE](LICENSE) file for more details.
