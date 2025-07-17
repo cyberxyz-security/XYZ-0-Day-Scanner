@@ -1,45 +1,12 @@
-Metadata-Version: 2.1
-Name: XYZ-APT-Scanner
-Version: 1.0.1
-Summary: Professional vulnerability scanner CLI tool
-Home-page: https://github.com/cyberxyz-security/XYZ-APT-Scanner
-Author: CyberXYZ Security Team
-Author-email: amro@cyberxyz.io
-Project-URL: Bug Reports, https://github.com/cyberxyz-security/XYZ-APT-Scanner/issues
-Project-URL: Documentation, https://github.com/cyberxyz-security/XYZ-APT-Scanner
-Project-URL: Source, https://github.com/cyberxyz-security/XYZ-APT-Scanner
-Keywords: vulnerability scanner,security,CVE,GHSA,OSV
-Classifier: Development Status :: 4 - Beta
-Classifier: Intended Audience :: Developers
-Classifier: Intended Audience :: System Administrators
-Classifier: License :: Other/Proprietary License
-Classifier: Operating System :: OS Independent
-Classifier: Programming Language :: Python :: 3
-Classifier: Programming Language :: Python :: 3.8
-Classifier: Programming Language :: Python :: 3.9
-Classifier: Programming Language :: Python :: 3.10
-Classifier: Programming Language :: Python :: 3.11
-Classifier: Topic :: Security
-Classifier: Topic :: Software Development :: Libraries :: Python Modules
-Requires-Python: >=3.8
-Description-Content-Type: text/markdown
-License-File: LICENSE
-Requires-Dist: click
-Requires-Dist: requests
-Requires-Dist: python-dotenv
-Requires-Dist: tabulate
-Requires-Dist: rich
-Requires-Dist: pip-audit
+# 🛡️ XYZ Scanner 🛡️
 
-# 🛡️ XYZ APT Scanner 🛡️
-
-**A professional vulnerability scanner CLI tool by CyberXYZ Security**
+**From CyberXYZ Security Inc., our research team looks for the next 0-Day vulnerabilities in collaboration with Cork Institute for Technology (CIT).**
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 ## 🚀 Overview
 
-The XYZ APT Scanner is a powerful command-line interface that allows developers and security professionals to scan their projects for known vulnerabilities. It leverages the comprehensive XYZ Vulnerability Database to provide real-time security insights.
+The XYZ Scanner is a powerful command-line interface that allows developers and security professionals to scan their projects for known vulnerabilities. It leverages the comprehensive XYZ Vulnerability Database to provide real-time security insights.
 
 ## ✨ Features
 
@@ -50,16 +17,16 @@ The XYZ APT Scanner is a powerful command-line interface that allows developers 
 
 ## 🛠️ Installation
 
-You can install the XYZ APT Scanner using `pip` or `uv`:
+You can install the XYZ Scanner using `pip` or `uv`:
 
 ```bash
-pip install XYZ-APT-Scanner
+pip install XYZ-Scanner
 ```
 
 or
 
 ```bash
-uv pip install XYZ-APT-Scanner
+uv pip install XYZ-Scanner
 ```
 
 **Note:** To use the Go auditing features, you will also need to install `depsdev`:
@@ -196,4 +163,4 @@ This tool was developed by the CyberXYZ Security team.
 
 ## 📄 License
 
-The XYZ APT Scanner is licensed under a commercial license. See the [LICENSE](LICENSE) file for more details.
+The XYZ Scanner is licensed under a commercial license. See the [LICENSE](LICENSE) file for more details.

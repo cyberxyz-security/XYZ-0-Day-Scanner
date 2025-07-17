@@ -1,0 +1,1408 @@
+{
+  "dependencies": [
+    {
+      "name": "aiofiles",
+      "version": "23.2.1",
+      "vulns": []
+    },
+    {
+      "name": "aiohappyeyeballs",
+      "version": "2.4.3",
+      "vulns": []
+    },
+    {
+      "name": "aiohttp",
+      "version": "3.11.0",
+      "vulns": []
+    },
+    {
+      "name": "aioshutil",
+      "version": "1.4",
+      "vulns": []
+    },
+    {
+      "name": "aiosignal",
+      "version": "1.3.1",
+      "vulns": []
+    },
+    {
+      "name": "alembic",
+      "version": "1.14.0",
+      "vulns": []
+    },
+    {
+      "name": "annotated-types",
+      "version": "0.7.0",
+      "vulns": []
+    },
+    {
+      "name": "anyio",
+      "version": "3.7.1",
+      "vulns": []
+    },
+    {
+      "name": "arrow",
+      "version": "1.3.0",
+      "vulns": []
+    },
+    {
+      "name": "asgiref",
+      "version": "3.8.1",
+      "vulns": []
+    },
+    {
+      "name": "asn1crypto",
+      "version": "1.5.1",
+      "vulns": []
+    },
+    {
+      "name": "async-timeout",
+      "version": "5.0.1",
+      "vulns": []
+    },
+    {
+      "name": "attrs",
+      "version": "24.2.0",
+      "vulns": []
+    },
+    {
+      "name": "bcrypt",
+      "version": "4.0.1",
+      "vulns": []
+    },
+    {
+      "name": "beautifulsoup4",
+      "version": "4.12.3",
+      "vulns": []
+    },
+    {
+      "name": "binaryornot",
+      "version": "0.4.4",
+      "vulns": []
+    },
+    {
+      "name": "blessed",
+      "version": "1.20.0",
+      "vulns": []
+    },
+    {
+      "name": "boolean-py",
+      "version": "5.0",
+      "vulns": []
+    },
+    {
+      "name": "brotli",
+      "version": "1.1.0",
+      "vulns": []
+    },
+    {
+      "name": "cachecontrol",
+      "version": "0.14.3",
+      "vulns": []
+    },
+    {
+      "name": "certifi",
+      "version": "2024.2.2",
+      "vulns": [
+        {
+          "id": "PYSEC-2024-230",
+          "fix_versions": [
+            "2024.7.4"
+          ],
+          "aliases": [
+            "CVE-2024-39689"
+          ],
+          "description": "Certifi is a curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. Certifi starting in 2021.05.30 and prior to 2024.07.4 recognized root certificates from `GLOBALTRUST`. Certifi 2024.07.04 removes root certificates from `GLOBALTRUST` from the root store. These are in the process of being removed from Mozilla's trust store. `GLOBALTRUST`'s root certificates are being removed pursuant to an investigation which identified \"long-running and unresolved compliance issues.\""
+        }
+      ]
+    },
+    {
+      "name": "cffi",
+      "version": "1.17.1",
+      "vulns": []
+    },
+    {
+      "name": "chardet",
+      "version": "5.2.0",
+      "vulns": []
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.3.2",
+      "vulns": []
+    },
+    {
+      "name": "click",
+      "version": "8.1.7",
+      "vulns": []
+    },
+    {
+      "name": "click-plugins",
+      "version": "1.1.1",
+      "vulns": []
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.6",
+      "vulns": []
+    },
+    {
+      "name": "configparser",
+      "version": "4.0.2",
+      "vulns": []
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.0",
+      "vulns": []
+    },
+    {
+      "name": "cookiecutter",
+      "version": "2.6.0",
+      "vulns": []
+    },
+    {
+      "name": "coverage",
+      "version": "7.6.8",
+      "vulns": []
+    },
+    {
+      "name": "crawlee",
+      "version": "0.1.0",
+      "vulns": []
+    },
+    {
+      "name": "cryptography",
+      "version": "45.0.5",
+      "vulns": []
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "vulns": []
+    },
+    {
+      "name": "cyclonedx-python-lib",
+      "version": "9.1.0",
+      "vulns": []
+    },
+    {
+      "name": "defusedxml",
+      "version": "0.7.1",
+      "vulns": []
+    },
+    {
+      "name": "distlib",
+      "version": "0.3.8",
+      "vulns": []
+    },
+    {
+      "name": "distro",
+      "version": "1.9.0",
+      "vulns": []
+    },
+    {
+      "name": "django",
+      "version": "5.0",
+      "vulns": [
+        {
+          "id": "PYSEC-2024-28",
+          "fix_versions": [
+            "3.2.24",
+            "4.2.10",
+            "5.0.2"
+          ],
+          "aliases": [
+            "CVE-2024-24680"
+          ],
+          "description": "An issue was discovered in Django 3.2 before 3.2.24, 4.2 before 4.2.10, and Django 5.0 before 5.0.2. The intcomma template filter was subject to a potential denial-of-service attack when used with very long strings."
+        },
+        {
+          "id": "PYSEC-2024-47",
+          "fix_versions": [
+            "3.2.25",
+            "4.2.11",
+            "5.0.3"
+          ],
+          "aliases": [
+            "CVE-2024-27351"
+          ],
+          "description": "In Django 3.2 before 3.2.25, 4.2 before 4.2.11, and 5.0 before 5.0.3, the django.utils.text.Truncator.words() method (with html=True) and the truncatewords_html template filter are subject to a potential regular expression denial-of-service attack via a crafted string. NOTE: this issue exists because of an incomplete fix for CVE-2019-14232 and CVE-2023-43665."
+        },
+        {
+          "id": "PYSEC-2024-58",
+          "fix_versions": [
+            "4.2.14",
+            "5.0.7"
+          ],
+          "aliases": [
+            "CVE-2024-39330"
+          ],
+          "description": "An issue was discovered in Django 5.0 before 5.0.7 and 4.2 before 4.2.14. Derived classes of the django.core.files.storage.Storage base class, when they override generate_filename() without replicating the file-path validations from the parent class, potentially allow directory traversal via certain inputs during a save() call. (Built-in Storage sub-classes are unaffected.)"
+        },
+        {
+          "id": "PYSEC-2024-57",
+          "fix_versions": [
+            "4.2.14",
+            "5.0.7"
+          ],
+          "aliases": [
+            "CVE-2024-39329"
+          ],
+          "description": "An issue was discovered in Django 5.0 before 5.0.7 and 4.2 before 4.2.14. The django.contrib.auth.backends.ModelBackend.authenticate() method allows remote attackers to enumerate users via a timing attack involving login requests for users with an unusable password."
+        },
+        {
+          "id": "PYSEC-2024-56",
+          "fix_versions": [
+            "4.2.14",
+            "5.0.7"
+          ],
+          "aliases": [
+            "CVE-2024-38875"
+          ],
+          "description": "An issue was discovered in Django 4.2 before 4.2.14 and 5.0 before 5.0.7. urlize and urlizetrunc were subject to a potential denial of service attack via certain inputs with a very large number of brackets."
+        },
+        {
+          "id": "PYSEC-2024-59",
+          "fix_versions": [
+            "4.2.14",
+            "5.0.7"
+          ],
+          "aliases": [
+            "CVE-2024-39614"
+          ],
+          "description": "An issue was discovered in Django 5.0 before 5.0.7 and 4.2 before 4.2.14. get_supported_language_variant() was subject to a potential denial-of-service attack when used with very long strings containing specific characters."
+        },
+        {
+          "id": "PYSEC-2024-69",
+          "fix_versions": [
+            "4.2.15",
+            "5.0.8"
+          ],
+          "aliases": [
+            "CVE-2024-41991"
+          ],
+          "description": "An issue was discovered in Django 5.0 before 5.0.8 and 4.2 before 4.2.15. The urlize and urlizetrunc template filters, and the AdminURLFieldWidget widget, are subject to a potential denial-of-service attack via certain inputs with a very large number of Unicode characters."
+        },
+        {
+          "id": "PYSEC-2024-70",
+          "fix_versions": [
+            "4.2.15",
+            "5.0.8"
+          ],
+          "aliases": [
+            "CVE-2024-42005"
+          ],
+          "description": "An issue was discovered in Django 5.0 before 5.0.8 and 4.2 before 4.2.15. QuerySet.values() and values_list() methods on models with a JSONField are subject to SQL injection in column aliases via a crafted JSON object key as a passed *arg."
+        },
+        {
+          "id": "PYSEC-2024-68",
+          "fix_versions": [
+            "4.2.15",
+            "5.0.8"
+          ],
+          "aliases": [
+            "CVE-2024-41990"
+          ],
+          "description": "An issue was discovered in Django 5.0 before 5.0.8 and 4.2 before 4.2.15. The urlize() and urlizetrunc() template filters are subject to a potential denial-of-service attack via very large inputs with a specific sequence of characters."
+        },
+        {
+          "id": "PYSEC-2024-67",
+          "fix_versions": [
+            "4.2.15",
+            "5.0.8"
+          ],
+          "aliases": [
+            "CVE-2024-41989"
+          ],
+          "description": "An issue was discovered in Django 5.0 before 5.0.8 and 4.2 before 4.2.15. The floatformat template filter is subject to significant memory consumption when given a string representation of a number in scientific notation with a large exponent."
+        },
+        {
+          "id": "PYSEC-2025-13",
+          "fix_versions": [
+            "4.2.20",
+            "5.0.13",
+            "5.1.7"
+          ],
+          "aliases": [
+            "CVE-2025-26699"
+          ],
+          "description": "An issue was discovered in Django 5.1 before 5.1.7, 5.0 before 5.0.13, and 4.2 before 4.2.20. The django.utils.text.wrap() method and wordwrap template filter are subject to a potential denial-of-service attack when used with very long strings."
+        },
+        {
+          "id": "PYSEC-2024-102",
+          "fix_versions": [
+            "4.2.16",
+            "5.0.9",
+            "5.1.1"
+          ],
+          "aliases": [
+            "CVE-2024-45230"
+          ],
+          "description": "An issue was discovered in Django 5.1 before 5.1.1, 5.0 before 5.0.9, and 4.2 before 4.2.16. The urlize() and urlizetrunc() template filters are subject to a potential denial-of-service attack via very large inputs with a specific sequence of characters."
+        },
+        {
+          "id": "PYSEC-2024-157",
+          "fix_versions": [
+            "4.2.17",
+            "5.0.10",
+            "5.1.4"
+          ],
+          "aliases": [
+            "CVE-2024-53908"
+          ],
+          "description": "An issue was discovered in Django 5.1 before 5.1.4, 5.0 before 5.0.10, and 4.2 before 4.2.17. Direct usage of the django.db.models.fields.json.HasKey lookup, when an Oracle database is used, is subject to SQL injection if untrusted data is used as an lhs value. (Applications that use the jsonfield.has_key lookup via __ are unaffected.)"
+        },
+        {
+          "id": "PYSEC-2024-156",
+          "fix_versions": [
+            "4.2.17",
+            "5.0.10",
+            "5.1.4"
+          ],
+          "aliases": [
+            "CVE-2024-53907"
+          ],
+          "description": "An issue was discovered in Django 5.1 before 5.1.4, 5.0 before 5.0.10, and 4.2 before 4.2.17. The strip_tags() method and striptags template filter are subject to a potential denial-of-service attack via certain inputs containing large sequences of nested incomplete HTML entities."
+        },
+        {
+          "id": "PYSEC-2025-1",
+          "fix_versions": [
+            "4.2.18",
+            "5.0.11",
+            "5.1.5"
+          ],
+          "aliases": [
+            "CVE-2024-56374"
+          ],
+          "description": "An issue was discovered in Django 5.1 before 5.1.5, 5.0 before 5.0.11, and 4.2 before 4.2.18. Lack of upper-bound limit enforcement in strings passed when performing IPv6 validation could lead to a potential denial-of-service attack. The undocumented and private functions clean_ipv6_address and is_valid_ipv6_address are vulnerable, as is the django.forms.GenericIPAddressField form field. (The django.db.models.GenericIPAddressField model field is not affected.)"
+        },
+        {
+          "id": "PYSEC-2025-14",
+          "fix_versions": [
+            "5.0.14",
+            "5.1.8"
+          ],
+          "aliases": [
+            "CVE-2025-27556"
+          ],
+          "description": "An issue was discovered in Django 5.1 before 5.1.8 and 5.0 before 5.0.14. The NFKC normalization is slow on Windows. As a consequence, django.contrib.auth.views.LoginView, django.contrib.auth.views.LogoutView, and django.views.i18n.set_language are subject to a potential denial-of-service attack via certain inputs with a very large number of Unicode characters."
+        },
+        {
+          "id": "GHSA-rrqc-c2jx-6jgv",
+          "fix_versions": [
+            "4.2.16",
+            "5.0.9",
+            "5.1.1"
+          ],
+          "aliases": [
+            "CVE-2024-45231"
+          ],
+          "description": "An issue was discovered in Django v5.1.1, v5.0.9, and v4.2.16. The django.contrib.auth.forms.PasswordResetForm class, when used in a view implementing password reset flows, allows remote attackers to enumerate user e-mail addresses by sending password reset requests and observing the outcome (only when e-mail sending is consistently failing)."
+        },
+        {
+          "id": "GHSA-7xr5-9hcq-chf9",
+          "fix_versions": [
+            "4.2.22",
+            "5.1.10",
+            "5.2.2"
+          ],
+          "aliases": [
+            "CVE-2025-48432"
+          ],
+          "description": "An issue was discovered in Django 5.2 before 5.2.2, 5.1 before 5.1.10, and 4.2 before 4.2.22. Internal HTTP response logging does not escape request.path, which allows remote attackers to potentially manipulate log output via crafted URLs. This may lead to log injection or forgery when logs are viewed in terminals or processed by external systems."
+        }
+      ]
+    },
+    {
+      "name": "django-cors-headers",
+      "version": "4.3.1",
+      "vulns": []
+    },
+    {
+      "name": "django-filter",
+      "version": "24.3",
+      "vulns": []
+    },
+    {
+      "name": "djangorestframework",
+      "version": "3.14.0",
+      "vulns": [
+        {
+          "id": "GHSA-gw84-84pc-xp82",
+          "fix_versions": [
+            "3.15.2"
+          ],
+          "aliases": [
+            "CVE-2024-21520"
+          ],
+          "description": "Versions of the package djangorestframework before 3.15.2 are vulnerable to Cross-site Scripting (XSS) via the break_long_headers template filter due to improper input sanitization before splitting and joining with <br> tags."
+        }
+      ]
+    },
+    {
+      "name": "dnspython",
+      "version": "2.7.0",
+      "vulns": []
+    },
+    {
+      "name": "docutils",
+      "version": "0.21.2",
+      "vulns": []
+    },
+    {
+      "name": "ecdsa",
+      "version": "0.19.1",
+      "vulns": []
+    },
+    {
+      "name": "editor",
+      "version": "1.6.6",
+      "vulns": []
+    },
+    {
+      "name": "elastic-transport",
+      "version": "8.15.1",
+      "vulns": []
+    },
+    {
+      "name": "elasticsearch",
+      "version": "8.16.0",
+      "vulns": []
+    },
+    {
+      "name": "email-validator",
+      "version": "2.2.0",
+      "vulns": []
+    },
+    {
+      "name": "enum-compat",
+      "version": "0.0.3",
+      "vulns": []
+    },
+    {
+      "name": "et-xmlfile",
+      "version": "1.1.0",
+      "vulns": []
+    },
+    {
+      "name": "eval-type-backport",
+      "version": "0.2.0",
+      "vulns": []
+    },
+    {
+      "name": "exceptiongroup",
+      "version": "1.2.2",
+      "vulns": []
+    },
+    {
+      "name": "fastapi",
+      "version": "0.105.0",
+      "vulns": [
+        {
+          "id": "PYSEC-2024-38",
+          "fix_versions": [
+            "0.109.1"
+          ],
+          "aliases": [
+            "CVE-2024-24762",
+            "GHSA-qf9m-vfgh-m389"
+          ],
+          "description": "FastAPI is a web framework for building APIs with Python 3.8+ based on standard Python type hints. When using form data, `python-multipart` uses a Regular Expression to parse the HTTP `Content-Type` header, including options. An attacker could send a custom-made `Content-Type` option that is very difficult for the RegEx to process, consuming CPU resources and stalling indefinitely (minutes or more) while holding the main event loop. This means that process can't handle any more requests. It's a ReDoS(Regular expression Denial of Service), it only applies to those reading form data, using `python-multipart`. This vulnerability has been patched in version 0.109.1."
+        }
+      ]
+    },
+    {
+      "name": "feedparser",
+      "version": "6.0.11",
+      "vulns": []
+    },
+    {
+      "name": "filelock",
+      "version": "3.13.1",
+      "vulns": []
+    },
+    {
+      "name": "fonttools",
+      "version": "4.54.1",
+      "vulns": []
+    },
+    {
+      "name": "frozenlist",
+      "version": "1.5.0",
+      "vulns": []
+    },
+    {
+      "name": "greenlet",
+      "version": "3.0.3",
+      "vulns": []
+    },
+    {
+      "name": "h11",
+      "version": "0.14.0",
+      "vulns": [
+        {
+          "id": "GHSA-vqfr-h8mv-ghfj",
+          "fix_versions": [
+            "0.16.0"
+          ],
+          "aliases": [
+            "CVE-2025-43859"
+          ],
+          "description": "### Impact  A leniency in h11's parsing of line terminators in chunked-coding message bodies can lead to request smuggling vulnerabilities under certain conditions.  ### Details  HTTP/1.1 Chunked-Encoding bodies are formatted as a sequence of \"chunks\", each of which consists of:  - chunk length - `\\r\\n` - `length` bytes of content - `\\r\\n`  In versions of h11 up to 0.14.0, h11 instead parsed them as:  - chunk length - `\\r\\n` - `length` bytes of content - any two bytes  i.e. it did not validate that the trailing `\\r\\n` bytes were correct, and if you put 2 bytes of garbage there it would be accepted, instead of correctly rejecting the body as malformed.  By itself this is harmless. However, suppose you have a proxy or reverse-proxy that tries to analyze HTTP requests, and your proxy has a _different_ bug in parsing Chunked-Encoding, acting as if the format is:  - chunk length - `\\r\\n` - `length` bytes of content - more bytes of content, as many as it takes until you find a `\\r\\n`  For example, [pound](https://github.com/graygnuorg/pound/pull/43) had this bug -- it can happen if an implementer uses a generic \"read until end of line\" helper to consumes the trailing `\\r\\n`.  In this case, h11 and your proxy may both accept the same stream of bytes, but interpret them differently. For example, consider the following HTTP request(s) (assume all line breaks are `\\r\\n`):  ``` GET /one HTTP/1.1 Host: localhost Transfer-Encoding: chunked  5 AAAAAXX2 45 0  GET /two HTTP/1.1 Host: localhost Transfer-Encoding: chunked  0 ```  Here h11 will interpret it as two requests, one with body `AAAAA45` and one with an empty body, while our hypothetical buggy proxy will interpret it as a single request, with body `AAAAXX20\\r\\n\\r\\nGET /two ...`. And any time two HTTP processors both accept the same string of bytes but interpret them differently, you have the conditions for a \"request smuggling\" attack. For example, if `/two` is a dangerous endpoint and the job of the reverse proxy is to stop requests from getting there, then an attacker could use a bytestream like the above to circumvent this protection.  Even worse, if our buggy reverse proxy receives two requests from different users:  ``` GET /one HTTP/1.1 Host: localhost Transfer-Encoding: chunked  5 AAAAAXX999 0 ```  ``` GET /two HTTP/1.1 Host: localhost Cookie: SESSION_KEY=abcdef... ```  ...it will consider the first request to be complete and valid, and send both on to the h11-based web server over the same socket. The server will then see the two concatenated requests, and interpret them as _one_ request to `/one` whose body includes `/two`'s session key, potentially allowing one user to steal another's credentials.  ### Patches  Fixed in h11 0.15.0.  ### Workarounds  Since exploitation requires the combination of buggy h11 with a buggy (reverse) proxy, fixing either component is sufficient to mitigate this issue.  ### Credits  Reported by Jeppe Bonde Weikop on 2025-01-09."
+        }
+      ]
+    },
+    {
+      "name": "hexdump",
+      "version": "3.3",
+      "vulns": []
+    },
+    {
+      "name": "html5lib",
+      "version": "1.1",
+      "vulns": []
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.5",
+      "vulns": []
+    },
+    {
+      "name": "httptools",
+      "version": "0.6.4",
+      "vulns": []
+    },
+    {
+      "name": "httpx",
+      "version": "0.27.0",
+      "vulns": []
+    },
+    {
+      "name": "humanize",
+      "version": "4.11.0",
+      "vulns": []
+    },
+    {
+      "name": "idna",
+      "version": "3.6",
+      "vulns": [
+        {
+          "id": "PYSEC-2024-60",
+          "fix_versions": [
+            "3.7"
+          ],
+          "aliases": [
+            "CVE-2024-3651"
+          ],
+          "description": "A vulnerability was identified in the kjd/idna library, specifically within the `idna.encode()` function, affecting version 3.6. The issue arises from the function's handling of crafted input strings, which can lead to quadratic complexity and consequently, a denial of service condition. This vulnerability is triggered by a crafted input that causes the `idna.encode()` function to process the input with considerable computational load, significantly increasing the processing time in a quadratic manner relative to the input size."
+        }
+      ]
+    },
+    {
+      "name": "inflate64",
+      "version": "1.0.0",
+      "vulns": []
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.0.0",
+      "vulns": []
+    },
+    {
+      "name": "inquirer",
+      "version": "3.3.0",
+      "vulns": []
+    },
+    {
+      "name": "jinja2",
+      "version": "3.1.4",
+      "vulns": [
+        {
+          "id": "GHSA-q2x7-8rv6-6q7h",
+          "fix_versions": [
+            "3.1.5"
+          ],
+          "aliases": [
+            "CVE-2024-56326"
+          ],
+          "description": "An oversight in how the Jinja sandboxed environment detects calls to `str.format` allows an attacker that controls the content of a template to execute arbitrary Python code.  To exploit the vulnerability, an attacker needs to control the content of a template. Whether that is the case depends on the type of application using Jinja. This vulnerability impacts users of applications which execute untrusted templates.  Jinja's sandbox does catch calls to `str.format` and ensures they don't escape the sandbox. However, it's possible to store a reference to a malicious string's `format` method, then pass that to a filter that calls it. No such filters are built-in to Jinja, but could be present through custom filters in an application. After the fix, such indirect calls are also handled by the sandbox."
+        },
+        {
+          "id": "GHSA-gmj6-6f8f-6699",
+          "fix_versions": [
+            "3.1.5"
+          ],
+          "aliases": [
+            "CVE-2024-56201"
+          ],
+          "description": "A bug in the Jinja compiler allows an attacker that controls both the content and filename of a template to execute arbitrary Python code, regardless of if Jinja's sandbox is used.  To exploit the vulnerability, an attacker needs to control both the filename and the contents of a template. Whether that is the case depends on the type of application using Jinja. This vulnerability impacts users of applications which execute untrusted templates where the template author can also choose the template filename."
+        },
+        {
+          "id": "GHSA-cpwx-vrp4-4pq7",
+          "fix_versions": [
+            "3.1.6"
+          ],
+          "aliases": [
+            "CVE-2025-27516"
+          ],
+          "description": "An oversight in how the Jinja sandboxed environment interacts with the `|attr` filter allows an attacker that controls the content of a template to execute arbitrary Python code.  To exploit the vulnerability, an attacker needs to control the content of a template. Whether that is the case depends on the type of application using Jinja. This vulnerability impacts users of applications which execute untrusted templates.  Jinja's sandbox does catch calls to `str.format` and ensures they don't escape the sandbox. However, it's possible to use the `|attr` filter to get a reference to a string's plain format method, bypassing the sandbox. After the fix, the `|attr` filter no longer bypasses the environment's attribute lookup."
+        }
+      ]
+    },
+    {
+      "name": "joblib",
+      "version": "1.4.2",
+      "vulns": []
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.4.7",
+      "vulns": []
+    },
+    {
+      "name": "license-expression",
+      "version": "30.4.3",
+      "vulns": []
+    },
+    {
+      "name": "loguru",
+      "version": "0.7.3",
+      "vulns": []
+    },
+    {
+      "name": "lxml",
+      "version": "5.2.2",
+      "vulns": []
+    },
+    {
+      "name": "mako",
+      "version": "1.3.8",
+      "vulns": []
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "3.0.0",
+      "vulns": []
+    },
+    {
+      "name": "markupsafe",
+      "version": "2.1.5",
+      "vulns": []
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.8.2",
+      "vulns": []
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2",
+      "vulns": []
+    },
+    {
+      "name": "more-itertools",
+      "version": "10.7.0",
+      "vulns": []
+    },
+    {
+      "name": "mplcursors",
+      "version": "0.5.3",
+      "vulns": []
+    },
+    {
+      "name": "msgpack",
+      "version": "1.1.1",
+      "vulns": []
+    },
+    {
+      "name": "multidict",
+      "version": "6.1.0",
+      "vulns": []
+    },
+    {
+      "name": "multivolumefile",
+      "version": "0.2.3",
+      "vulns": []
+    },
+    {
+      "name": "networkx",
+      "version": "3.2.1",
+      "vulns": []
+    },
+    {
+      "name": "numpy",
+      "version": "1.26.2",
+      "vulns": []
+    },
+    {
+      "name": "openpyxl",
+      "version": "3.1.4",
+      "vulns": []
+    },
+    {
+      "name": "packageurl-python",
+      "version": "0.17.1",
+      "vulns": []
+    },
+    {
+      "name": "packaging",
+      "version": "25.0",
+      "vulns": []
+    },
+    {
+      "name": "pandas",
+      "version": "2.1.3",
+      "vulns": []
+    },
+    {
+      "name": "passlib",
+      "version": "1.7.4",
+      "vulns": []
+    },
+    {
+      "name": "pg8000",
+      "version": "1.31.2",
+      "vulns": []
+    },
+    {
+      "name": "pillow",
+      "version": "11.0.0",
+      "vulns": []
+    },
+    {
+      "name": "pip",
+      "version": "25.1.1",
+      "vulns": []
+    },
+    {
+      "name": "pip-api",
+      "version": "0.0.34",
+      "vulns": []
+    },
+    {
+      "name": "pip-audit",
+      "version": "2.9.0",
+      "vulns": []
+    },
+    {
+      "name": "pip-requirements-parser",
+      "version": "32.0.1",
+      "vulns": []
+    },
+    {
+      "name": "pipdeptree",
+      "version": "2.27.0",
+      "vulns": []
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.2.2",
+      "vulns": []
+    },
+    {
+      "name": "playwright",
+      "version": "1.45.0",
+      "vulns": []
+    },
+    {
+      "name": "plotly",
+      "version": "5.18.0",
+      "vulns": []
+    },
+    {
+      "name": "pluggy",
+      "version": "1.5.0",
+      "vulns": []
+    },
+    {
+      "name": "propcache",
+      "version": "0.2.0",
+      "vulns": []
+    },
+    {
+      "name": "psutil",
+      "version": "6.0.0",
+      "vulns": []
+    },
+    {
+      "name": "psycopg2",
+      "version": "2.9.10",
+      "vulns": []
+    },
+    {
+      "name": "psycopg2-binary",
+      "version": "2.9.10",
+      "vulns": []
+    },
+    {
+      "name": "py-serializable",
+      "version": "2.0.0",
+      "vulns": []
+    },
+    {
+      "name": "py7zr",
+      "version": "0.22.0",
+      "vulns": []
+    },
+    {
+      "name": "pyasn1",
+      "version": "0.6.1",
+      "vulns": []
+    },
+    {
+      "name": "pybcj",
+      "version": "1.0.2",
+      "vulns": []
+    },
+    {
+      "name": "pycparser",
+      "version": "2.22",
+      "vulns": []
+    },
+    {
+      "name": "pycryptodomex",
+      "version": "3.20.0",
+      "vulns": []
+    },
+    {
+      "name": "pydantic",
+      "version": "2.8.2",
+      "vulns": []
+    },
+    {
+      "name": "pydantic-core",
+      "version": "2.20.1",
+      "vulns": []
+    },
+    {
+      "name": "pydantic-settings",
+      "version": "2.3.4",
+      "vulns": []
+    },
+    {
+      "name": "pyee",
+      "version": "11.1.0",
+      "vulns": []
+    },
+    {
+      "name": "pygments",
+      "version": "2.18.0",
+      "vulns": []
+    },
+    {
+      "name": "pylnk3",
+      "version": "0.4.2",
+      "vulns": []
+    },
+    {
+      "name": "pyparsing",
+      "version": "2.4.7",
+      "vulns": []
+    },
+    {
+      "name": "pypdf2",
+      "version": "3.0.1",
+      "vulns": []
+    },
+    {
+      "name": "pyppmd",
+      "version": "1.1.0",
+      "vulns": []
+    },
+    {
+      "name": "pyqt5",
+      "version": "5.15.10",
+      "vulns": []
+    },
+    {
+      "name": "pyqt5-qt5",
+      "version": "5.15.14",
+      "vulns": []
+    },
+    {
+      "name": "pyqt5-sip",
+      "version": "12.13.0",
+      "vulns": []
+    },
+    {
+      "name": "pyqt6",
+      "version": "6.7.1",
+      "vulns": []
+    },
+    {
+      "name": "pyqt6-qt6",
+      "version": "6.7.3",
+      "vulns": []
+    },
+    {
+      "name": "pyqt6-sip",
+      "version": "13.8.0",
+      "vulns": []
+    },
+    {
+      "name": "pytest",
+      "version": "7.4.4",
+      "vulns": []
+    },
+    {
+      "name": "pytest-cov",
+      "version": "4.1.0",
+      "vulns": []
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.8.2",
+      "vulns": []
+    },
+    {
+      "name": "python-dotenv",
+      "version": "1.0.0",
+      "vulns": []
+    },
+    {
+      "name": "python-evtx",
+      "version": "0.7.4",
+      "vulns": []
+    },
+    {
+      "name": "python-jose",
+      "version": "3.5.0",
+      "vulns": []
+    },
+    {
+      "name": "python-magic",
+      "version": "0.4.27",
+      "vulns": []
+    },
+    {
+      "name": "python-multipart",
+      "version": "0.0.19",
+      "vulns": []
+    },
+    {
+      "name": "python-registry",
+      "version": "1.3.1",
+      "vulns": []
+    },
+    {
+      "name": "python-slugify",
+      "version": "8.0.4",
+      "vulns": []
+    },
+    {
+      "name": "pytz",
+      "version": "2024.1",
+      "vulns": []
+    },
+    {
+      "name": "pyyaml",
+      "version": "6.0.1",
+      "vulns": []
+    },
+    {
+      "name": "pyzstd",
+      "version": "0.16.1",
+      "vulns": []
+    },
+    {
+      "name": "ratelimit",
+      "version": "2.2.1",
+      "vulns": []
+    },
+    {
+      "name": "readchar",
+      "version": "4.1.0",
+      "vulns": []
+    },
+    {
+      "name": "redis",
+      "version": "6.2.0",
+      "vulns": []
+    },
+    {
+      "name": "requests",
+      "version": "2.31.0",
+      "vulns": [
+        {
+          "id": "GHSA-9wx4-h78v-vm56",
+          "fix_versions": [
+            "2.32.0"
+          ],
+          "aliases": [
+            "CVE-2024-35195"
+          ],
+          "description": "When making requests through a Requests `Session`, if the first request is made with `verify=False` to disable cert verification, all subsequent requests to the same origin will continue to ignore cert verification regardless of changes to the value of `verify`. This behavior will continue for the lifecycle of the connection in the connection pool.  ### Remediation Any of these options can be used to remediate the current issue, we highly recommend upgrading as the preferred mitigation.  * Upgrade to `requests>=2.32.0`. * For `requests<2.32.0`, avoid setting `verify=False` for the first request to a host while using a Requests Session. * For `requests<2.32.0`, call `close()` on `Session` objects to clear existing connections if `verify=False` is used.  ### Related Links * https://github.com/psf/requests/pull/6655"
+        },
+        {
+          "id": "GHSA-9hjg-9r4m-mvj7",
+          "fix_versions": [
+            "2.32.4"
+          ],
+          "aliases": [
+            "CVE-2024-47081"
+          ],
+          "description": "### Impact  Due to a URL parsing issue, Requests releases prior to 2.32.4 may leak .netrc credentials to third parties for specific maliciously-crafted URLs.  ### Workarounds For older versions of Requests, use of the .netrc file can be disabled with `trust_env=False` on your Requests Session ([docs](https://requests.readthedocs.io/en/latest/api/#requests.Session.trust_env)).  ### References https://github.com/psf/requests/pull/6965 https://seclists.org/fulldisclosure/2025/Jun/2"
+        }
+      ]
+    },
+    {
+      "name": "requests-file",
+      "version": "2.0.0",
+      "vulns": []
+    },
+    {
+      "name": "rich",
+      "version": "13.7.1",
+      "vulns": []
+    },
+    {
+      "name": "rsa",
+      "version": "4.9.1",
+      "vulns": []
+    },
+    {
+      "name": "runs",
+      "version": "1.2.2",
+      "vulns": []
+    },
+    {
+      "name": "scikit-learn",
+      "version": "1.3.2",
+      "vulns": [
+        {
+          "id": "PYSEC-2024-110",
+          "fix_versions": [
+            "1.5.0"
+          ],
+          "aliases": [
+            "CVE-2024-5206"
+          ],
+          "description": "A sensitive data leakage vulnerability was identified in scikit-learn's TfidfVectorizer, specifically in versions up to and including 1.4.1.post1, which was fixed in version 1.5.0. The vulnerability arises from the unexpected storage of all tokens present in the training data within the `stop_words_` attribute, rather than only storing the subset of tokens required for the TF-IDF technique to function. This behavior leads to the potential leakage of sensitive information, as the `stop_words_` attribute could contain tokens that were meant to be discarded and not stored, such as passwords or keys. The impact of this vulnerability varies based on the nature of the data being processed by the vectorizer."
+        }
+      ]
+    },
+    {
+      "name": "scipy",
+      "version": "1.14.1",
+      "vulns": []
+    },
+    {
+      "name": "scramp",
+      "version": "1.4.5",
+      "vulns": []
+    },
+    {
+      "name": "seaborn",
+      "version": "0.13.0",
+      "vulns": []
+    },
+    {
+      "name": "semver",
+      "version": "2.13.0",
+      "vulns": []
+    },
+    {
+      "name": "setuptools",
+      "version": "75.6.0",
+      "vulns": [
+        {
+          "id": "PYSEC-2025-49",
+          "fix_versions": [
+            "78.1.1"
+          ],
+          "aliases": [
+            "GHSA-5rjg-fvgr-3xxf",
+            "CVE-2025-47273"
+          ],
+          "description": "setuptools is a package that allows users to download, build, install, upgrade, and uninstall Python packages. A path traversal vulnerability in `PackageIndex` is present in setuptools prior to version 78.1.1. An attacker would be allowed to write files to arbitrary locations on the filesystem with the permissions of the process running the Python code, which could escalate to remote code execution depending on the context. Version 78.1.1 fixes the issue."
+        }
+      ]
+    },
+    {
+      "name": "sgmllib3k",
+      "version": "1.0.0",
+      "vulns": []
+    },
+    {
+      "name": "shellingham",
+      "version": "1.5.4",
+      "vulns": []
+    },
+    {
+      "name": "shodan",
+      "version": "1.31.0",
+      "vulns": []
+    },
+    {
+      "name": "six",
+      "version": "1.16.0",
+      "vulns": []
+    },
+    {
+      "name": "sniffio",
+      "version": "1.3.1",
+      "vulns": []
+    },
+    {
+      "name": "sortedcollections",
+      "version": "2.1.0",
+      "vulns": []
+    },
+    {
+      "name": "sortedcontainers",
+      "version": "2.4.0",
+      "vulns": []
+    },
+    {
+      "name": "soupsieve",
+      "version": "2.5",
+      "vulns": []
+    },
+    {
+      "name": "spotify2ytmusic",
+      "version": "0.9.27",
+      "vulns": []
+    },
+    {
+      "name": "sqlalchemy",
+      "version": "2.0.23",
+      "vulns": []
+    },
+    {
+      "name": "sqlparse",
+      "version": "0.5.2",
+      "vulns": []
+    },
+    {
+      "name": "starlette",
+      "version": "0.27.0",
+      "vulns": [
+        {
+          "id": "GHSA-f96h-pmfr-66vw",
+          "fix_versions": [
+            "0.40.0"
+          ],
+          "aliases": [
+            "CVE-2024-47874"
+          ],
+          "description": "### Summary Starlette treats `multipart/form-data` parts without a `filename` as text form fields and buffers those in byte strings with no size limit. This allows an attacker to upload arbitrary large form fields and cause Starlette to both slow down significantly due to excessive memory allocations and copy operations, and also consume more and more memory until the server starts swapping and grinds to a halt, or the OS terminates the server process with an OOM error. Uploading multiple such requests in parallel may be enough to render a service practically unusable, even if reasonable request size limits are enforced by a reverse proxy in front of Starlette.  ### PoC  ```python from starlette.applications import Starlette from starlette.routing import Route  async def poc(request):     async with request.form():         pass  app = Starlette(routes=[     Route('/', poc, methods=[\"POST\"]), ]) ```  ```sh curl http://localhost:8000 -F 'big=</dev/urandom' ```  ### Impact This Denial of service (DoS) vulnerability affects all applications built with Starlette (or FastAPI) accepting form requests. "
+        }
+      ]
+    },
+    {
+      "name": "tabulate",
+      "version": "0.9.0",
+      "vulns": []
+    },
+    {
+      "name": "tenacity",
+      "version": "9.0.0",
+      "vulns": []
+    },
+    {
+      "name": "text-unidecode",
+      "version": "1.3",
+      "vulns": []
+    },
+    {
+      "name": "texttable",
+      "version": "1.7.0",
+      "vulns": []
+    },
+    {
+      "name": "threadpoolctl",
+      "version": "3.5.0",
+      "vulns": []
+    },
+    {
+      "name": "tk",
+      "version": "0.1.0",
+      "vulns": []
+    },
+    {
+      "name": "tldextract",
+      "version": "5.1.2",
+      "vulns": []
+    },
+    {
+      "name": "toml",
+      "version": "0.10.2",
+      "vulns": []
+    },
+    {
+      "name": "tomli",
+      "version": "2.1.0",
+      "vulns": []
+    },
+    {
+      "name": "tqdm",
+      "version": "4.66.1",
+      "vulns": [
+        {
+          "id": "GHSA-g7vv-2v7x-gj9p",
+          "fix_versions": [
+            "4.66.3"
+          ],
+          "aliases": [
+            "CVE-2024-34062"
+          ],
+          "description": "### Impact Any optional non-boolean CLI arguments (e.g. `--delim`, `--buf-size`, `--manpath`) are passed through python's `eval`, allowing arbitrary code execution. Example:  ```sh python -m tqdm --manpath=\"\\\" + str(exec(\\\"import os\\nos.system('echo hi && killall python3')\\\")) + \\\"\" ```  ### Patches https://github.com/tqdm/tqdm/commit/4e613f84ed2ae029559f539464df83fa91feb316 released in `tqdm>=4.66.3`  ### Workarounds None  ### References - https://github.com/tqdm/tqdm/releases/tag/v4.66.3"
+        }
+      ]
+    },
+    {
+      "name": "typer",
+      "version": "0.12.3",
+      "vulns": []
+    },
+    {
+      "name": "types-python-dateutil",
+      "version": "2.9.0.20240316",
+      "vulns": []
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.12.2",
+      "vulns": []
+    },
+    {
+      "name": "tzdata",
+      "version": "2024.1",
+      "vulns": []
+    },
+    {
+      "name": "unicodecsv",
+      "version": "0.14.1",
+      "vulns": []
+    },
+    {
+      "name": "urllib3",
+      "version": "2.2.1",
+      "vulns": [
+        {
+          "id": "GHSA-34jh-p97f-mpxf",
+          "fix_versions": [
+            "1.26.19",
+            "2.2.2"
+          ],
+          "aliases": [
+            "CVE-2024-37891"
+          ],
+          "description": "When using urllib3's proxy support with `ProxyManager`, the `Proxy-Authorization` header is only sent to the configured proxy, as expected.  However, when sending HTTP requests *without* using urllib3's proxy support, it's possible to accidentally configure the `Proxy-Authorization` header even though it won't have any effect as the request is not using a forwarding proxy or a tunneling proxy. In those cases, urllib3 doesn't treat the `Proxy-Authorization` HTTP header as one carrying authentication material and thus doesn't strip the header on cross-origin redirects.  Because this is a highly unlikely scenario, we believe the severity of this vulnerability is low for almost all users. Out of an abundance of caution urllib3 will automatically strip the `Proxy-Authorization` header during cross-origin redirects to avoid the small chance that users are doing this on accident.  Users should use urllib3's proxy support or disable automatic redirects to achieve safe processing of the `Proxy-Authorization` header, but we still decided to strip the header by default in order to further protect users who aren't using the correct approach.  ## Affected usages  We believe the number of usages affected by this advisory is low. It requires all of the following to be true to be exploited:  * Setting the `Proxy-Authorization` header without using urllib3's built-in proxy support. * Not disabling HTTP redirects. * Either not using an HTTPS origin server or for the proxy or target origin to redirect to a malicious origin.  ## Remediation  * Using the `Proxy-Authorization` header with urllib3's `ProxyManager`. * Disabling HTTP redirects using `redirects=False` when sending requests. * Not using the `Proxy-Authorization` header."
+        },
+        {
+          "id": "GHSA-48p4-8xcf-vxj5",
+          "fix_versions": [
+            "2.5.0"
+          ],
+          "aliases": [
+            "CVE-2025-50182"
+          ],
+          "description": "urllib3 [supports](https://urllib3.readthedocs.io/en/2.4.0/reference/contrib/emscripten.html) being used in a Pyodide runtime utilizing the [JavaScript Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) or falling back on [XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest). This means you can use Python libraries to make HTTP requests from your browser or Node.js. Additionally, urllib3 provides [a mechanism](https://urllib3.readthedocs.io/en/2.4.0/user-guide.html#retrying-requests) to control redirects.  However, the `retries` and `redirect` parameters are ignored with Pyodide; the runtime itself determines redirect behavior.   ## Affected usages  Any code which relies on urllib3 to control the number of redirects for an HTTP request in a Pyodide runtime.   ## Impact  Redirects are often used to exploit SSRF vulnerabilities. An application attempting to mitigate SSRF or open redirect vulnerabilities by disabling redirects may remain vulnerable if a Pyodide runtime redirect mechanism is unsuitable.   ## Remediation  If you use urllib3 in Node.js, upgrade to a patched version of urllib3.  Unfortunately, browsers provide no suitable way which urllib3 can use: `XMLHttpRequest` provides no control over redirects, the Fetch API returns `opaqueredirect` responses lacking data when redirects are controlled manually. Expect default browser behavior for redirects."
+        },
+        {
+          "id": "GHSA-pq67-6m6q-mj2v",
+          "fix_versions": [
+            "2.5.0"
+          ],
+          "aliases": [
+            "CVE-2025-50181"
+          ],
+          "description": "urllib3 handles redirects and retries using the same mechanism, which is controlled by the `Retry` object. The most common way to disable redirects is at the request level, as follows:  ```python resp = urllib3.request(\"GET\", \"https://httpbin.org/redirect/1\", redirect=False) print(resp.status) # 302 ```  However, it is also possible to disable redirects, for all requests, by instantiating a `PoolManager` and specifying `retries` in a way that disable redirects:  ```python import urllib3  http = urllib3.PoolManager(retries=0)  # should raise MaxRetryError on redirect http = urllib3.PoolManager(retries=urllib3.Retry(redirect=0))  # equivalent to the above http = urllib3.PoolManager(retries=False)  # should return the first response  resp = http.request(\"GET\", \"https://httpbin.org/redirect/1\") ```  However, the `retries` parameter is currently ignored, which means all the above examples don't disable redirects.  ## Affected usages  Passing `retries` on `PoolManager` instantiation to disable redirects or restrict their number.  By default, requests and botocore users are not affected.  ## Impact  Redirects are often used to exploit SSRF vulnerabilities. An application attempting to mitigate SSRF or open redirect vulnerabilities by disabling redirects at the PoolManager level will remain vulnerable.  ## Remediation  You can remediate this vulnerability with the following steps:   * Upgrade to a patched version of urllib3. If your organization would benefit from the continued support of urllib3 1.x, please contact [sethmichaellarson@gmail.com](mailto:sethmichaellarson@gmail.com) to discuss sponsorship or contribution opportunities.  * Disable redirects at the `request()` level instead of the `PoolManager()` level."
+        }
+      ]
+    },
+    {
+      "name": "uvicorn",
+      "version": "0.24.0.post1",
+      "vulns": []
+    },
+    {
+      "name": "uvloop",
+      "version": "0.21.0",
+      "vulns": []
+    },
+    {
+      "name": "virtualenv",
+      "version": "20.26.2",
+      "vulns": [
+        {
+          "id": "PYSEC-2024-187",
+          "fix_versions": [
+            "20.26.6"
+          ],
+          "aliases": [
+            "CVE-2024-53899"
+          ],
+          "description": "virtualenv before 20.26.6 allows command injection through the activation scripts for a virtual environment. Magic template strings are not quoted correctly when replacing. NOTE: this is not the same as CVE-2024-9287."
+        }
+      ]
+    },
+    {
+      "name": "watchfiles",
+      "version": "1.1.0",
+      "vulns": []
+    },
+    {
+      "name": "wcwidth",
+      "version": "0.2.13",
+      "vulns": []
+    },
+    {
+      "name": "webencodings",
+      "version": "0.5.1",
+      "vulns": []
+    },
+    {
+      "name": "websockets",
+      "version": "15.0.1",
+      "vulns": []
+    },
+    {
+      "name": "wheel",
+      "version": "0.45.1",
+      "vulns": []
+    },
+    {
+      "name": "xlsxwriter",
+      "version": "3.2.0",
+      "vulns": []
+    },
+    {
+      "name": "xmltodict",
+      "version": "0.13.0",
+      "vulns": []
+    },
+    {
+      "name": "xmod",
+      "version": "1.8.1",
+      "vulns": []
+    },
+    {
+      "name": "xyz-vulnerability-scanner",
+      "skip_reason": "Dependency not found on PyPI and could not be audited: xyz-vulnerability-scanner (1.0.1)"
+    },
+    {
+      "name": "yara-python",
+      "version": "4.5.1",
+      "vulns": []
+    },
+    {
+      "name": "yarl",
+      "version": "1.17.1",
+      "vulns": []
+    },
+    {
+      "name": "ytmusicapi",
+      "version": "1.5.3",
+      "vulns": []
+    },
+    {
+      "name": "zipp",
+      "version": "1.0.0",
+      "vulns": []
+    }
+  ],
+  "fixes": []
+}

@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+"""
+XYZ Vulnerability Scanner - API Client
+Entry point for the API-based CLI client
+"""
+
+import sys
+import os
+
+# Add the current directory to Python path so we can import xyz.py
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+# Import and run the main CLI
+from xyz import cli
+
+if __name__ == "__main__":
+    cli()
