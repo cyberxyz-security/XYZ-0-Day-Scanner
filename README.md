@@ -1,4 +1,4 @@
-# 🛡️ XYZ 0-Day Scanner 🛡️
+# 🛡️ XYZ-Scan 🛡️
 
 **From CyberXYZ Security Inc., our research team looks for the next 0-Day vulnerabilities in collaboration with Cork Institute for Technology (CIT).**
 
@@ -6,7 +6,7 @@
 
 ## 🚀 Overview
 
-The XYZ 0-Day Scanner is a powerful command-line interface that allows developers and security professionals to scan their projects for known vulnerabilities. It leverages the comprehensive XYZ Vulnerability Database to provide real-time security insights.
+The XYZ-Scan is a powerful command-line interface that allows developers and security professionals to scan their projects for known vulnerabilities. It leverages the comprehensive XYZ Vulnerability Database to provide real-time security insights.
 
 ## ✨ Features
 
@@ -17,16 +17,16 @@ The XYZ 0-Day Scanner is a powerful command-line interface that allows developer
 
 ## 🛠️ Installation
 
-You can install the XYZ 0-Day Scanner using `pip` or `uv`:
+You can install the XYZ-Scan using `pip` or `uv`:
 
 ```bash
-pip install XYZ-0-Day-Scanner
+pip install xyz-scan
 ```
 
 or
 
 ```bash
-uv pip install XYZ-0-Day-Scanner
+uv pip install xyz-scan
 ```
 
 **Note:** To use the Go auditing features, you will also need to install `depsdev`:
@@ -163,4 +163,4 @@ This tool was developed by the CyberXYZ Security team.
 
 ## 📄 License
 
-The XYZ 0-Day Scanner is licensed under a commercial license. See the [LICENSE](LICENSE) file for more details.
+The XYZ-Scan is licensed under a commercial license. See the [LICENSE](LICENSE) file for more details.
