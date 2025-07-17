@@ -27,7 +27,7 @@ class XYZAPIClient:
             api_key: API key for authentication (can also be set via XYZ_API_KEY env var)
             base_url: Base URL for the API (can also be set via XYZ_API_URL env var)
         """
-        self.base_url = base_url or os.getenv('XYZ_API_URL', 'https://api-backend-243883377485.us-central1.run.app')
+        self.base_url = base_url or os.getenv('XYZ_API_URL', 'https://api.cyberxyz.io/')
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': 'xyz-cli/1.0.0'

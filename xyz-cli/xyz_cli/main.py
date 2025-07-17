@@ -51,7 +51,7 @@ def init_client():
             console.print("\n[yellow]Setup Instructions:[/yellow]")
             console.print("1. Login using: [bold]xyz login[/bold]")
             console.print("2. (or) Set your API key: [bold]export XYZ_API_KEY=sk_xyz_your_key_here[/bold]")
-            console.print("3. Set API URL (optional): [bold]export XYZ_API_URL=https://api-backend-243883377485.us-central1.run.app[/bold]")
+            console.print("3. Set API URL (optional): [bold]export XYZ_API_URL=https://api.cyberxyz.io/[/bold]")
             console.print("4. Contact support@xyz-security.com for access.")
             sys.exit(1)
         
